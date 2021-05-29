@@ -439,7 +439,8 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/Banner.jpg") top center;
+  /* background: url("../img/Banner.jpg") top center; */
+  background-color: #5b5bdc;
   background-size: cover;
   position: relative;
 }
@@ -665,7 +666,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #5fcf80;
+  background: #5b5bdc;
   border-radius: 4px;
   color: #fff;
 }
@@ -694,7 +695,7 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: #5fcf80;
+  color: #5b5bdc;
   background: #fff;
 }
 
@@ -707,7 +708,7 @@ section {
 }
 
 .why-us .icon-boxes .icon-box i {
-  font-size: 32px;
+  font-size: 50px;
   padding: 18px;
   color: #5fcf80;
   margin-bottom: 30px;
@@ -851,19 +852,20 @@ section {
 }
 
 .trainers .member .member-content {
-  padding: 0 20px 30px 20px;
+  padding: 0 10px 30px 10px;
 }
 
 .trainers .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
+  color: #5fcf80;
 }
 
 .trainers .member span {
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .trainers .member p {
@@ -878,12 +880,12 @@ section {
 }
 
 .trainers .member .social a {
-  color: #7e9486;
+  color: #5fcf80;
   transition: 0.3s;
 }
 
 .trainers .member .social a:hover {
-  color: #5fcf80;
+  color: #7e9486;
 }
 
 .trainers .member .social i {
